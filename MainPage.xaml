@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="UWPHelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPHelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="822">
+
+    <Grid>
+        <Button Content="Change to 'Hello World'" Margin="38,94,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="38,41,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <ListView x:Name="ListView1" Margin="698,50,252,50" BorderThickness="1,0,0,0" BorderBrush="{ThemeResource AppBarItemForegroundThemeBrush}" IsItemClickEnabled="True" SelectionChanged="ListView_SelectedIndexChanged">
+            <PivotItem Header="PivotItem 0">
+                <Grid/>
+            </PivotItem>
+        </ListView>
+        <TextBox x:Name="Input1" HorizontalAlignment="Left" Margin="422,322,0,0" Text="Title" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="35"/>
+        <Button x:Name="AddToListButton" Content="Add to list" Margin="422,534,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBlock x:Name="CountText" HorizontalAlignment="Left" Margin="1043,10,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="908,10,0,0" Text="Number of elements:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="InputContent" HorizontalAlignment="Left" Margin="422,379,0,0" Text="Content" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="128"/>
+        <TextBlock x:Name="ContentOutput" HorizontalAlignment="Left" Margin="422,94,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="223" Width="266"/>
+        <TextBlock x:Name="TitleOutput" HorizontalAlignment="Left" Margin="435,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Button x:Name="Delete" Content="Delete" Margin="546,534,0,0" VerticalAlignment="Top" Click="Delete_Click"/>
+
+    </Grid>
+</Page>
