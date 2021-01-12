@@ -24,7 +24,7 @@ namespace UWPHelloWorld
     /// </summary>
     public sealed partial class MainPage : Page
     {
-
+        // THE ARRAY THAT STORES YOUR INPUTS
         ArrayList inputs = new ArrayList();
         public MainPage()
         {
@@ -56,7 +56,11 @@ namespace UWPHelloWorld
         {
             ListView list = this.FindName("ListView1") as ListView;
 
+            //Clear it, so you can show the current state of the ArrayList.
+
             list.Items.Clear();
+
+            //Foreach to add the title to the ListView
 
             foreach(MyListItem listItem in inputs)
             {
@@ -70,10 +74,11 @@ namespace UWPHelloWorld
             countText.Text = count.ToString();
         }
 
-        //When the event of "ListView_SelectedIndexChanged" is called, write title and content of current list-item to the app.
 
         private void ListView_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
+            //When the event of "ListView_SelectedIndexChanged" is called, write title and content of current list-item to the app.
+
             ListView list = this.FindName("ListView1") as ListView;
             TextBlock titleOutput = this.FindName("TitleOutput") as TextBlock;
             TextBlock contentOutput = this.FindName("ContentOutput") as TextBlock;
@@ -83,6 +88,7 @@ namespace UWPHelloWorld
             //Try catch due to index out of bounds when updating.
             try
             {
+                //Get the item at the selected index from the array, then set the text of the title field and content field.
                 MyListItem item = (MyListItem)inputs[index];
                 string title = item.Title;
                 string content = item.Content;
@@ -92,7 +98,7 @@ namespace UWPHelloWorld
             }
             catch
             {
-                Debug.WriteLine("Failed to write");
+                Debug.WriteLine("Exception");
             }
         }
 
@@ -111,10 +117,16 @@ namespace UWPHelloWorld
 
             int index = list.SelectedIndex;
 
-            inputs.RemoveAt(index);
+            try
+            {
+                inputs.RemoveAt(index);
+            }
+            catch
+            {
+                Debug.WriteLine("Out of range delete");
+            }
 
             //Populate with the array that now have one less item.
-
             Populate_ListView();
         }
     }
