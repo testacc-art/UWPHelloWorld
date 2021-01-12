@@ -49,6 +49,12 @@ namespace UWPHelloWorld
 
             inputs.Add(listItem);
 
+            //Clear inputs after adding item to array
+
+            inputText.Text = "";
+            contentText.Text = "";
+
+            //Populate with the updated array
             Populate_ListView();
         }
 

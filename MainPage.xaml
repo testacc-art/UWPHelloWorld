@@ -16,13 +16,13 @@
                 <Grid/>
             </PivotItem>
         </ListView>
-        <TextBox x:Name="Input1" HorizontalAlignment="Left" Margin="422,322,0,0" Text="Title" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="35"/>
+        <TextBox x:Name="Input1" HorizontalAlignment="Left" Margin="422,322,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="35" PlaceholderText="Title"/>
         <Button x:Name="AddToListButton" Content="Add to list" Margin="422,534,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <TextBlock x:Name="CountText" HorizontalAlignment="Left" Margin="1043,10,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="908,10,0,0" Text="Number of elements:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="InputContent" HorizontalAlignment="Left" Margin="422,379,0,0" Text="Content" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="128"/>
+        <TextBlock x:Name="CountText" HorizontalAlignment="Left" Margin="833,19,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="698,19,0,0" Text="Number of elements:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="InputContent" HorizontalAlignment="Left" Margin="422,379,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="128" PlaceholderText="Content"/>
         <TextBlock x:Name="ContentOutput" HorizontalAlignment="Left" Margin="422,94,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="223" Width="266"/>
-        <TextBlock x:Name="TitleOutput" HorizontalAlignment="Left" Margin="435,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="84"/>
+        <TextBlock x:Name="TitleOutput" HorizontalAlignment="Left" Margin="422,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="84"/>
         <Button x:Name="Delete" Content="Delete" Margin="546,534,0,0" VerticalAlignment="Top" Click="Delete_Click"/>
 
     </Grid>

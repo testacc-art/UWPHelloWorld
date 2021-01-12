@@ -8158,11 +8158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\texly\\source\\repos\\UWPHelloWorld\\UWPHelloWorld.csproj",
+      "projectUniqueName": "C:\\myApps\\UWPHelloWorld\\UWPHelloWorld.csproj",
       "projectName": "UWPHelloWorld",
-      "projectPath": "C:\\Users\\texly\\source\\repos\\UWPHelloWorld\\UWPHelloWorld.csproj",
+      "projectPath": "C:\\myApps\\UWPHelloWorld\\UWPHelloWorld.csproj",
       "packagesPath": "C:\\Users\\texly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\texly\\source\\repos\\UWPHelloWorld\\obj\\",
+      "outputPath": "C:\\myApps\\UWPHelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

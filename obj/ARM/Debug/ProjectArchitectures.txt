@@ -1,0 +1,1 @@
+C:\myApps\UWPHelloWorld\UWPHelloWorld.csproj;arm

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0gyrANPbTzxcoVnZS/5L7meQcovVzZVrVWZjQY2YrEtqAC+bc/+sRjTPAdfdnvpzLXAE9m0Sb5Lws9JMHT8pEg==",
+  "dgSpecHash": "E4dHyKkyvp/tcm8ZyecXpL35tg8Ys6wisJy+MPpfHS5TDfLyG/19oiCdF207xCKRjKWxtYan1zmhuOC3QpRRyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\texly\\source\\repos\\UWPHelloWorld\\UWPHelloWorld.csproj",
+  "projectFilePath": "C:\\myApps\\UWPHelloWorld\\UWPHelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
