@@ -43,3 +43,8 @@ C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\qualifiers.txt.intermedi
 C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637112570540000000.json
+C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\OtherPage.xbf
+C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\OtherPage.g.i.cs
+C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\OtherPage.g.cs
+C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\OtherPage.xaml
+C:\Users\texly\source\repos\UWPHelloWorld\obj\x86\Debug\OtherPage.xbf

@@ -19,12 +19,12 @@ using Windows.UI.Xaml.Navigation;
 
 namespace UWPHelloWorld
 {
-    /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
-    /// </summary>
+    /// <summary>The main page of the application.</summary>
     public sealed partial class MainPage : Page
     {
         // THE ARRAY THAT STORES YOUR INPUTS
+        /// <summary>The inputs
+        /// from the user</summary>
         ArrayList inputs = new ArrayList();
         public MainPage()
         {
@@ -38,6 +38,9 @@ namespace UWPHelloWorld
         }
 
         //Adding input into ArrayList, then calling the Populate_Listview method.
+        /// <summary>Add button for the inputs</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs" /> instance containing the event data.</param>
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             TextBox inputText = this.FindName("Input1") as TextBox;
@@ -45,19 +48,30 @@ namespace UWPHelloWorld
             string title = inputText.Text;
             string content = contentText.Text;
 
-            MyListItem listItem = new MyListItem(title, content);
+            if(title.Equals("") || content.Equals(""))
+            {
+                Debug.WriteLine("Empty strings");
+            }
+            else
+            {
 
-            inputs.Add(listItem);
+                MyListItem listItem = new MyListItem(title, content);
 
-            //Clear inputs after adding item to array
+                inputs.Add(listItem);
 
-            inputText.Text = "";
-            contentText.Text = "";
+                //Clear inputs after adding item to array
 
-            //Populate with the updated array
-            Populate_ListView();
+                inputText.Text = "";
+                contentText.Text = "";
+
+                //Populate with the updated array
+                Populate_ListView();
+            }
+
+
         }
 
+        /// <summary>Populates the ListView.</summary>
         private void Populate_ListView()
         {
             ListView list = this.FindName("ListView1") as ListView;
@@ -81,6 +95,9 @@ namespace UWPHelloWorld
         }
 
 
+        /// <summary>Handles the SelectedIndexChanged event of the ListView control.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="SelectionChangedEventArgs" /> instance containing the event data.</param>
         private void ListView_SelectedIndexChanged(object sender, SelectionChangedEventArgs e)
         {
             //When the event of "ListView_SelectedIndexChanged" is called, write title and content of current list-item to the app.
@@ -108,6 +125,9 @@ namespace UWPHelloWorld
             }
         }
 
+        /// <summary>Handles the Click event of the Delete button.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs" /> instance containing the event data.</param>
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             ListView list = this.FindName("ListView1") as ListView;
@@ -134,6 +154,11 @@ namespace UWPHelloWorld
 
             //Populate with the array that now have one less item.
             Populate_ListView();
+        }
+
+        private void NavigationButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(OtherPage));
         }
     }
 }

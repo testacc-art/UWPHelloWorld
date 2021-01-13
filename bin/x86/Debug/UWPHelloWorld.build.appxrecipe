@@ -70,6 +70,9 @@
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\OtherPage.xbf">
+      <PackagePath>OtherPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
