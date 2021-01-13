@@ -156,6 +156,9 @@ namespace UWPHelloWorld
             Populate_ListView();
         }
 
+        /// <summary>Handles the Click event of the NavigationButton control.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs" /> instance containing the event data.</param>
         private void NavigationButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(OtherPage));
