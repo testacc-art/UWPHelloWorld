@@ -22,7 +22,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="698,19,0,0" Text="Number of elements:" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <TextBox x:Name="InputContent" HorizontalAlignment="Left" Margin="422,379,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="248" Height="128" PlaceholderText="Content"/>
         <TextBlock x:Name="ContentOutput" HorizontalAlignment="Left" Margin="422,94,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="223" Width="266"/>
-        <TextBlock x:Name="TitleOutput" HorizontalAlignment="Left" Margin="422,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="84"/>
+        <TextBlock x:Name="TitleOutput" HorizontalAlignment="Left" Margin="422,50,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="238"/>
         <Button x:Name="Delete" Content="Delete" Margin="546,534,0,0" VerticalAlignment="Top" Click="Delete_Click"/>
         <Button x:Name="NavigationButton" Content="Go to other page" Margin="206,411,0,0" VerticalAlignment="Top" Click="NavigationButton_Click"/>
 

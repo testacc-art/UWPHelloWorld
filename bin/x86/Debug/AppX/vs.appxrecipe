@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-13T18:40:39.499</Modified>
+      <Modified>2021-01-17T20:39:27.162</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\UWPHelloWorld.exe">
       <PackagePath>entrypoint\UWPHelloWorld.exe</PackagePath>
-      <Modified>2021-01-13T18:40:38.588</Modified>
+      <Modified>2021-01-17T20:39:26.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-13T18:40:38.480</Modified>
+      <Modified>2021-01-17T20:39:26.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\OtherPage.xbf">
       <PackagePath>OtherPage.xbf</PackagePath>
-      <Modified>2021-01-13T18:40:38.481</Modified>
+      <Modified>2021-01-17T20:39:26.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-13T18:40:38.481</Modified>
+      <Modified>2021-01-17T20:39:26.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\texly\source\repos\UWPHelloWorld\bin\x86\Debug\Core\UWPHelloWorld.exe">
       <PackagePath>UWPHelloWorld.exe</PackagePath>
-      <Modified>2021-01-13T18:40:39.484</Modified>
+      <Modified>2021-01-17T20:39:27.149</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
