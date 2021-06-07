@@ -1,1 +1,0 @@
-C:\Users\texly\source\repos\UWPHelloWorld\UWPHelloWorld.csproj;x86
