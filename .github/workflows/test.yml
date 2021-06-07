@@ -1,0 +1,16 @@
+name: Nightly
+on: [ push ]
+jobs:
+  buildAppxBundle:
+    name: Build AppInstaller
+    runs-on: windows-2019
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Prepare Env
+      uses: microsoft/setup-msbuild@v1.0.2
+    - name: Build AppInstaller
+      run: |
+        MSBuild UWPHelloWorld.csproj /p:Configuration=Release /p:UapAppxPackageBuildMode="SideloadOnly" /p:AppxPackageSigningEnabled=true /p:GenerateAppInstallerFile=True /p:AppInstallerUri="https://demo.demo/"
